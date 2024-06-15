@@ -1,0 +1,31 @@
+body{
+  font-family: Arial;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+.calculation{
+  font-size:45px ;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.number,.operator,.clear{
+  background-color: rgb(51,51,51);
+  color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border: none;
+  font-size: 25px;
+  margin-left: 7px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.operator{
+  background-color: orange;
+}
+.clear{
+  font-size: 16px;
+}
